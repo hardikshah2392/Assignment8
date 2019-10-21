@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2em;
+    margin-left : 20px;
+}
+
+#name {
+    margin-left: 50px;
+}
+
+#emp_title{
+    margin-left: 63px;
+}
+
+#extension{
+    margin-left : 23px;
+}
+
+#add {
+    margin-left: 200px;
+    width: 75px;
+    height: 1.5em;
+    background-color: rgb(106, 106, 211);
+    color: white;
+}
+#name,#emp_title,#extension{
+    border: solid 1px rgb(106, 106, 211);
+}
+
+th {
+    background-color: rgb(106, 106, 211);
+    width: 200px;
+    color:white;
+    text-align: center;
+}
+
+tr {
+    background-color:lightblue;
+    text-align: center;
+}
+
+span {
+    color: red;
+    margin-left: 10px;
+    font-weight: bold;
+}
+.delbtn {
+    background-color: rgb(106, 106, 211);
+    color:white;
+    border: 1px solid rgb(106, 106, 211);
+    width: 75px;
+}
+
+#count {
+    font-weight: bold;
+}

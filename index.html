@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment 08</title>
+    <link href="css/style.css" rel='stylesheet'>
+    <script src="js/employee-management.js"></script>
+</head>
+<body>
+    <main>
+        <h2>The Employee Management Application</h2>
+        <form action='return false' id='form' method='get'>
+            <strong>Add Employee</strong><br>
+            Name:<input type="text" id="name"><span class='hidden' id='name_error'>Please Enter Name!</span><br>
+            Title:<input type="text" id="emp_title"><span class='hidden' id='title_error'>Please Enter Title!</span><br>
+            Extension:<input type="text" id="extension"><span class='hidden' id='ext_error'>Please Enter Extension!</span><br>           
+            <input type="button" id="add" value="Add"><br>
+            <div id="count">1</div>
+            <table id='emp_table'>
+                <tbody id="emp_tbody"></tbody>
+            </table>
+        </form>
+    </main>
+    
+</body>
+</html>
